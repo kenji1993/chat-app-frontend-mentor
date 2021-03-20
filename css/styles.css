@@ -224,5 +224,15 @@ body {
     top: 0;
     z-index: -1;
     border-radius: 0 0 40rem 40rem;
-    background:linear-gradient(to right ,hsl(264, 100%, 61%) , hsl(293, 100%, 63%));
+    background:linear-gradient(to top ,hsl(264, 100%, 61%) , hsl(293, 100%, 63%));
+}
+.right-bullet {
+    width: 77rem;
+    height: 90%;
+    position: absolute;
+    right: -28rem;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 40rem 40rem 0 0;
+    background: rgb(248, 245, 245);
 }
